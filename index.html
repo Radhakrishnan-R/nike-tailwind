@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike - Project</title>
   </head>
-  <body>
+  <body class="dark:bg-black bg-white">
     <div id="root"></div>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+        const toggleDark = document.getElementById('toggleDark')
+        toggleDark.addEventListener('click', function() {
+          console.log("hello");
+          if(document.documentElement.classList.includes('dark')) {
+            document.documentElement.classList.remove('dark')
+          }
+          else {
+            document.documentElement.classList.add('dark')
+          }
+          alert("click!")
+        });
+      });
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

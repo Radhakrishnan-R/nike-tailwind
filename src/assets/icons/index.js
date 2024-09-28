@@ -10,6 +10,8 @@ import shieldTick from './shield-tick.svg'
 import star from './star.svg'
 import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
+import moon from "./moon-solid.svg"
+import sun from "./sun-solid.svg"
 
 export {
     arrowRight,
@@ -23,5 +25,7 @@ export {
     shieldTick,
     star,
     truckFast,
-    twitter
+    twitter,
+    moon,
+    sun
 }
