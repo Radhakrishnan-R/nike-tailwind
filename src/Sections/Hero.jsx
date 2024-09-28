@@ -20,7 +20,7 @@ const Hero = () => {
         <span className="text-coral-red inline-block mt-3 mr-6">RKTik </span>
         Shoes
       </h1>
-      <p className="max-sm:max-w-sm max-w-lg text-lg mt-4 text-slate-gray font-montserrat leading-8 mb-10">Discover stylish nike arrivals, quality comfort, and innovation for your active life.</p>
+      <p className="max-sm:max-w-sm max-w-lg text-lg mt-4 text-slate-gray font-montserrat leading-8 mb-10">Discover stylish RKTik arrivals, quality comfort, and innovation for your active life.</p>
 
       <Button text="Shop Now" endIcon={arrowRight}/>
       <div className="flex flex-wrap gap-10 w-full mt-20 max-sm:mb-10">
@@ -39,16 +39,19 @@ const Hero = () => {
         src={heroImage}
         className="relative z-10"
       />
-      {console.log(bigShoe1)}
+      {
       <div className="flex gap-2 xl:gap-6 absolute -bottom-16">
         {shoes.map((shoe, i) => (
           
           <ShoeCard key={i} shoe={shoe} currentImage={heroImage} heroImageChange={(shoe) => setheroImage(shoe)}/>
         ))}
       </div>
+      }
     </div>
+    
     </section>
   )
+      
 }
 
 export default Hero;

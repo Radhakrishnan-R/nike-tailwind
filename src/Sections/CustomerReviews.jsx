@@ -2,7 +2,7 @@ import CustomerReviewCard from "../Components/CustomerReviewCard";
 import { reviews } from "../contants";
 
 const CustomerReviews = () => {
-  console.log(reviews);
+  
   return (
     <section>
       <div className="flex justify-center flex-col items-center">

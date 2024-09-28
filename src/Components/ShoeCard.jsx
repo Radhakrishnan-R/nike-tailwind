@@ -6,7 +6,7 @@ const ShoeCard = ({shoe, currentImage, heroImageChange}) => {
         heroImageChange(shoe.imageURL);
     }
 
-    console.log(shoe, currentImage);
+    
   return (
     <div className={`border-2 ${currentImage === shoe.imageURL && 'border-coral-red'} p-2 bg-card bg-center bg-cover rounded-xl cursor-pointer`}>
         <img 
