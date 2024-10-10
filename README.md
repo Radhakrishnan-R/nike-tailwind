@@ -29,7 +29,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/movie-app.git
+   https://github.com/Radhakrishnan-R/nike-tailwind.git
 
 2. Navigate to the project directory:
 
